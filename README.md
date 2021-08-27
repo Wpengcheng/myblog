@@ -29,7 +29,7 @@ Semantic UI + Thymeleaf + JQuery
 
 项目图：
 
-![image](C:\Users\Administrator\Desktop\Picture\project\chengblog\QQ截图20210827111319.png)
+![image](https://z3.ax1x.com/2021/08/27/hMeldK.png)
 
 
 
