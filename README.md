@@ -34,7 +34,7 @@ Semantic UI + Thymeleaf + JQuery
 后台主页：
 ![image](https://z3.ax1x.com/2021/08/27/hMeweP.png)
 
-
+后台登录注意：密码需要先经过MD5工具类加密，再存进数据库！
 
 
 
