@@ -27,11 +27,12 @@ Semantic UI + Thymeleaf + JQuery
 - 运行环境：阿里云Centos7  
       
 
-项目图：
-
+项目效果图：
+前台主页：
 ![image](https://z3.ax1x.com/2021/08/27/hMeldK.png)
 
-
+后台主页：
+![image](https://z3.ax1x.com/2021/08/27/hMeweP.png)
 
 
 
