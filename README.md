@@ -1,5 +1,7 @@
 # myblog
 个人博客系统
+运行地址：www.weipc.top
+欢迎访问！
 
 
 
@@ -35,6 +37,7 @@ Semantic UI + Thymeleaf + JQuery
 ![image](https://z3.ax1x.com/2021/08/27/hMeweP.png)
 
 后台登录注意：密码需要先经过MD5工具类加密，再存进数据库！
+
 
 
 
