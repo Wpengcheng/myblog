@@ -20,13 +20,7 @@ import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 import java.util.List;
 
-/**
- * @Description: 博客管理控制器
- * @Author: ONESTAR
- * @Date: Created in 12:08 2020/3/27
- * @QQ群: 530311074
- * @URL: https://onestar.newstar.net.cn/
- */
+
 @Controller
 @RequestMapping("/admin")
 public class BlogController {

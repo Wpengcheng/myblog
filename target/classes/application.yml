@@ -12,5 +12,3 @@ spring:
 
 comment.avatar: /images/avatar.png
 message.avatar: /images/avatar.png
-server:
-  port: 9000

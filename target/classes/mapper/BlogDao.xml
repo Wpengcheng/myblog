@@ -40,8 +40,8 @@
 
     <!--查询文章管理列表-->
     <select id="getAllBlogQuery" resultMap="blog">
-        select b.id,b.title,b.update_time,b.recommend,b.published,b.type_id,t.id,t.name from myblog.t_blog b left outer join
-        myblog.t_type t on b.type_id = t.id order by b.update_time desc
+        select b.id,b.title,b.update_time,b.recommend,b.published,b.type_id,t.id,t.name from myblog.t_blog b
+        left outer join myblog.t_type t on b.type_id = t.id order by b.update_time desc
     </select>
 
     <!--删除文章-->
@@ -153,6 +153,7 @@
 
     <resultMap id="detailedBlog" type="com.star.queryvo.DetailedBlog">
         <id property="id" column="bid"/>
+<!--        实体类中的属性和表中的字段一一映射-->
         <result property="firstPicture" column="first_picture"/>
         <result property="flag" column="flag"/>
         <result property="title" column="title"/>
@@ -195,6 +196,9 @@
         from myblog.t_blog b, myblog.t_type t,myblog.t_user u
         where b.type_id = t.id and u.id = b.user_id and b.type_id = #{typeId} order by b.update_time desc
     </select>
+
+
+
 
     <!--统计博客信息-->
     <select id="getBlogTotal" resultType="Integer">

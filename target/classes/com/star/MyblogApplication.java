@@ -7,7 +7,7 @@ import org.springframework.util.ResourceUtils;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 
-//(exclude= {DataSourceAutoConfiguration.class})
+
 @SpringBootApplication
 public class MyblogApplication  {
 

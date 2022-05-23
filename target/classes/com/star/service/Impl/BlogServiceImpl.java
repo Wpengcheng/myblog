@@ -13,13 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.Date;
 import java.util.List;
 
-/**
- * @Description: 博客列表业务层接口实现类
- * @Author: ONESTAR
- * @Date: Created in 23:36 2020/3/30
- * @QQ群: 530311074
- * @URL: https://onestar.newstar.net.cn/
- */
+
 @Service
 public class BlogServiceImpl implements BlogService {
 

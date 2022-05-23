@@ -15,13 +15,7 @@ import javax.validation.Valid;
 import java.util.Date;
 import java.util.List;
 
-/**
- * @Description: 友链后台管理控制器
- * @Date: Created in 14:01 2020/4/16
- * @Author: ONESTAR
- * @QQ群: 530311074
- * @URL: https://onestar.newstar.net.cn/
- */
+
 @Controller
 @RequestMapping("/admin")
 public class FriendController {

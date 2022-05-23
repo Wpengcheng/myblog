@@ -10,13 +10,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-/**
- * @Description: 留言业务层接口实现类
- * @Date: Created in 11:45 2020/4/16
- * @Author: ONESTAR
- * @QQ群: 530311074
- * @URL: https://onestar.newstar.net.cn/
- */
+
 @Service
 public class MessageServiceImpl implements MessageService {
 
